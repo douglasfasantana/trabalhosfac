@@ -1,4 +1,7 @@
-// Lista 1: Exerc�cio 5
+// Lista 1: Exercício 5
+// Construa um programa em C++ que leia um número e exiba uma mensagem informando se ele é
+// igual a 5, ou se é igual a 200, ou se é igual a 400, ou se ele está no intervalo entre 500 e 1000
+// inclusive, ou se ele está fora dos escopos anteriores.
 
 #include <iostream>
 #include <cstdlib>
@@ -27,7 +30,7 @@ int main ()
 	{
 		cout <<"Seu numero esta entre 500 e 1000.\n\n";
 	}
-	else // E no caso de n�o ser nenhum acima.
+	else // E no caso de não ser nenhum acima.
 	{
 		cout <<"Seu numero nao e o 5, nem o 200, nem o 400, e nao esta entre 500 e 1000.\n\n";
 	}
