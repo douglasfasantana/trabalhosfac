@@ -1,4 +1,6 @@
-// Lista 1: Exerc�cio 8
+// Lista 1: Exercício 8
+// Construa um programa em C++ que leia três números possíveis lados de um triângulo e exiba
+// uma das mensagens: formam um triângulo/ não formam um triângulo.
 
 #include <iostream>
 #include <cstdlib>
