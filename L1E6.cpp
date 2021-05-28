@@ -1,8 +1,10 @@
-// Lista 1: ExercÌcio 6
+// Lista 1: Exerc√≠cio 6
+// Construa um programa em C++ que receba um n√∫mero via teclado. Se o n√∫mero for negativo,
+// eleve o n√∫mero ao quadrado e exiba, caso contr√°rio, extraia a raiz quadrada dele e exiba.
 
 #include <iostream>
 #include <cstdlib>
-#include <math.h> // Usando a biblioteca de matem·tica.
+#include <math.h> // Usando a biblioteca de matem√°tica.
 using namespace std;
 
 int main ()
@@ -13,13 +15,13 @@ int main ()
  	cout <<"Digite um numero: ";
  		cin >>num;
 
-	if (num < 0) // Caso o numero seja menor que 0 , ele ser· elevado ao quadrado, ou seja, ele * ele mesmo.
+	if (num < 0) // Caso o numero seja menor que 0 , ele ser√° elevado ao quadrado, ou seja, ele * ele mesmo.
 	{
 		cout <<num*num<<"\n\n";
 	}
 	else // Eu tentei de todas as formas criar um modo de fazer raiz quadrada sem usar raiz quadrada, pq ela ainda nao ensinou esse comendo, mas infelizmente, tive que usar raiz quadrada OBVIAMENTE.
 	{
-		num = sqrt(num);  // vale atentar que a raiz quadrada sÛ vai ser considerar se voce colocar ela como "recebimento", ou seja, sÛ o sqrt(num); nao funciona, tem que fazer x = sqrt(num);
+		num = sqrt(num);  // vale atentar que a raiz quadrada s√≥ vai ser considerar se voce colocar ela como "recebimento", ou seja, s√≥ o sqrt(num); nao funciona, tem que fazer x = sqrt(num);
 		cout <<num<<"\n\n";
 	}
 system ("Pause");
