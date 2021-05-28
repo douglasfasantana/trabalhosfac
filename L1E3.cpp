@@ -1,4 +1,8 @@
-// Lista 1: Exerc�cio 3
+// Lista 1: Exercício 3
+// Construa um programa em C++ que deixe entrar com três números para as variáveis a, b, c.
+// Trocar os conteúdos das variáveis de tal maneira que na variável a fique o menor número, na
+// variável b o número do meio e na variável c, o maior número. Exibi-los em ordem decrescente
+// (suponha números diferentes).
 
 #include <iostream>
 #include <cstdlib>
@@ -15,19 +19,19 @@ int main ()
  	cout <<"Mais um numero: ";
  		cin >>c; 		
 		
- 	if ( a > b) // para fazer a troca h� 3 probabiladades: Primeiro saber se A � maior que B, pois assim o menor numero entre eles fica com o A .
+ 	if ( a > b) // para fazer a troca há 3 probabiladades: Primeiro saber se A é maior que B, pois assim o menor numero entre eles fica com o A .
  	{
  		d = a;
  		a = b;
  		b = d;
 	}
- 	if (a > c) // Segundo saber se A � maior que C, pois assim o menor numero entre os dois ficar� no A e ele se tornar� o menor numero entre os 3.
+ 	if (a > c) // Segundo saber se A é maior que C, pois assim o menor numero entre os dois ficará no A e ele se tornará o menor numero entre os 3.
  	{
 	 	d = a;
 	 	a = c;
 	 	c = d;
     }
-   if (b > c) // E por ultimo, saber se B � maior que C pois assim o maior numero ficar� com o C e o B se tornar� o numero do meio.
+   if (b > c) // E por ultimo, saber se B é maior que C pois assim o maior numero ficará com o C e o B se tornará o numero do meio.
 	{
 		d = b;
 		b = c;
