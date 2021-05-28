@@ -1,4 +1,9 @@
-// Lista 1: ExercÌcio 4
+// Lista 1: Exerc√≠cio 4
+// Construa um programa em C++ que leia a idade de uma pessoa e informe a sua classe eleitoral.
+// Pesquise na no site do TER caso voc√™ n√£o tenha certeza:
+// ‚Ä¢ n√£o eleitor .
+// ‚Ä¢ eleitor obrigat√≥rio .
+// ‚Ä¢ eleitor facultativo.
 
 #include <iostream>
 #include <cstdlib>
@@ -11,15 +16,15 @@ int main ()
 	cout <<"Bem Vindo ao sitema de Classe Eleitoral.\nPor favor, digite sua idade: ";
 		cin >>idade;
 	
-	if ((idade >= 16 and idade <= 18) or idade > 70) // Eleitores entre 16 e 18 anos e acima de 70 anos n„o tem voto obrigatÛrio, usei um parentese extra pra separar as duas operaÁıes (o AND e o OR)
+	if ((idade >= 16 and idade <= 18) or idade > 70) // Eleitores entre 16 e 18 anos e acima de 70 anos n√£o tem voto obrigat√≥rio, usei um parentese extra pra separar as duas opera√ß√µes (o AND e o OR)
 	{
 		cout <<"Voce e um eleitor facultativo !\n\n";
 	}
-	else if (idade >= 18 and idade <= 70) // Eleitores entre 18 e 70 anos tem seu voto obrigatÛrio.
+	else if (idade >= 18 and idade <= 70) // Eleitores entre 18 e 70 anos tem seu voto obrigat√≥rio.
 	{
 		cout <<"Voce e um eleitor obrigatorio !\n\n";
 	}
-	else // N„o estando dentre os dois acima, o eleitor tera menos que 16 anos, ou seja, ainda nao È um eleitor.
+	else // N√£o estando dentre os dois acima, o eleitor tera menos que 16 anos, ou seja, ainda nao √© um eleitor.
 	{
 		cout <<"Voce ainda nao e um eleitor !\n\n";
 	}
